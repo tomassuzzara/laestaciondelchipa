@@ -1,0 +1,114 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#grid {
+    display: grid;
+    grid-template-areas:
+    "header header header"
+    "nav nav nav"
+    "productos productos productos"
+    "footer footer footer";
+    grid-template-rows: repeat(2fr);
+    grid-template-columns: 20% auto 15%;
+}
+
+.border {
+    border: 1px solid black;
+    gap: 10px;
+}
+
+header {
+    grid-area: header;
+}
+
+footer {
+    grid-area: footer;
+}
+
+section#productos {
+    grid-area: productos;
+}
+
+section#servicios {
+    grid-area: servicios;
+}
+
+.header {
+    position:static;
+    top: 0;
+    z-index: 1;
+    text-align: center;
+    margin-right: 25px;
+    padding: 25px;
+    background-color: grey;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+#listaNavegacion li {
+    list-style: none;
+    display: inline-block;
+    background-color: yellowgreen;
+    padding: 10px;
+
+}
+
+.header .enlaceLogo img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+    
+}
+
+#productos {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.caja__contenedor {
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    margin-right: 10px;
+ 
+    
+}
+
+#carouselExampleControls img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.caja__contenedor img {
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.instagram img {
+    height: 40px;
+    width: 40px;
+    position: sticky;
+    bottom: 0px;
+    right: 100px;
+    display: flex;
+    
+}
+
+.whatsapp img {
+    display: flex;
+    position: sticky;
+    bottom: 0px;
+    left: 1290px;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.footer {
+    height: 100px;
+    background-color: grey;
+}
