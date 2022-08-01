@@ -108,7 +108,7 @@ section#servicios {
     
 }
 
-.footer {
+#footer {
     height: 100px;
     background-color: grey;
 }
@@ -118,4 +118,30 @@ section#servicios {
     margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+#gridContainer2 {
+    display: grid;
+    border:4px solid black;
+    background-color: azure;
+    padding: 20px;
+    margin: 0 auto;
+    
+}
+
+#titulo1 {
+    text-align: center;
+    background-color: olivedrab;
+}
+
+.button {
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+}
+
+.card__imagen {
+    height: 250px;
+    width: 200px;
+    margin-top: 10px;
 }
