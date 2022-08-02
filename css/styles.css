@@ -52,7 +52,7 @@ section#servicios {
     display: inline-block;
     background-color: yellowgreen;
     padding: 10px;
-
+    transition: ease 2s;
 }
 
 .header .enlaceLogo img {
@@ -73,8 +73,6 @@ section#servicios {
     width: 300px;
     margin-top: 10px;
     margin-right: 10px;
- 
-    
 }
 
 #carouselExampleControls img {
@@ -150,6 +148,7 @@ section#servicios {
     height: 250px;
     width: 200px;
     margin-top: 10px;
+    transform: translate(100px,5px); /* ////// TRANSFORMACION //////// */
 }
 
 #sectionNosotros {
@@ -170,16 +169,20 @@ section#servicios {
     border: 4px solid black;
 }
 
+#iframeUbicacion:hover {    
+        transform: scale(1.5,1.5); 
+    }
+
 @media (max-width:800px){
- .containerGrid {
-    grid-template-areas:
-    "header"
-    "nav"
-    "productos"
-    "footer";
-    grid-template-rows: repeat(2fr);
-    grid-template-columns: 20% auto 15%;
-} 
+    .containerGrid {
+        grid-template-areas:
+        "header"
+        "nav"
+        "productos"
+        "footer";
+        grid-template-rows: repeat(2fr);
+        grid-template-columns: 20% auto 15%;
+    } 
 }
 
 @media (max-width:400px){
