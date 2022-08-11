@@ -52,7 +52,6 @@ section#servicios {
     display: inline-block;
     background-color: yellowgreen;
     padding: 10px;
-    transition: ease 2s;
 }
 
 .header .enlaceLogo img {
@@ -148,7 +147,7 @@ section#servicios {
     height: 250px;
     width: 200px;
     margin-top: 10px;
-    transform: translate(100px,5px); /* TRANSFORMACION */
+    transform: translate(100px,5px); /* ////// TRANSFORMACION //////// */
 }
 
 #sectionNosotros {
@@ -196,3 +195,5 @@ section#servicios {
         grid-template-columns: 20% auto 15%;
     }
 }
+
+/*# sourceMappingURL=styles.css.map */
