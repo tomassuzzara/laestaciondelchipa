@@ -1,0 +1,9 @@
+$fuente-principal: 'Lucida sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif'
+$color-principal: black; 
+$card: 150px;
+
+* {
+    font-family: $fuente-principal;
+    color: $color-principal;
+}
+
